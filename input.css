@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+   .li-item{
+    @apply  flex text-justify justify-evenly mt-5 flex-grow-1 
+   }
+
+
+    .del-btn{
+        @apply  hover:text-red-600 mx-7 
+    }
+    .content{
+        @apply p-3 text-2xl 
+    }
+}
